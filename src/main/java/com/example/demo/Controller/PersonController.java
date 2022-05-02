@@ -17,13 +17,13 @@ public class PersonController {
 	}
 	
 	@RequestMapping("/data")
-	public List details()
+	public List cars()
 	{
 		List list = new ArrayList();
-		list.add("detail1");
-		list.add("detail2");
-		list.add("detail3");
-		list.add("detail4");
+		list.add("car1");
+		list.add("car2");
+		list.add("car3");
+		list.add("car4");
 		return list;
 	}
 }
